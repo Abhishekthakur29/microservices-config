@@ -9,13 +9,9 @@ eureka:
     prefer-ip-address: true
 
 
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/abhishekdb
-    password: root
-    username: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+spring:  
+  data:
+    mongodb:
+      uri: mongodb+srv://Abhi29Microservice:Umeshsonu29%40#@microservice.pxyasmh.mongodb.net/?authSource=admin
+      database: Hotel_Rating
+      authentication-database: admin
